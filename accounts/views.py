@@ -5,6 +5,7 @@ from .models import *
 from django.forms import inlineformset_factory
 from .forms import OrderForm, CustomerForm
 from .filters import OrderFilter
+#all views
 
 
 def home(request):
